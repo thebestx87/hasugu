@@ -98,10 +98,15 @@ p{
   padding: 15px;
   cursor: pointer;
   transition: 0.3s;
+  
 }
 .service-item:hover {
   border-color: #0056a3;
   background: #f5f9ff;
+   transform: scale(1.03);
+  border-color: #0056a3;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  
 }
 .service-item img {
   width: 100%;
