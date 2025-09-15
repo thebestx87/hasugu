@@ -56,7 +56,9 @@ p{
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 28px;
+  padding: 18px 32px;
+  display: inline-block
 }
 
 /* 시공사례 */
@@ -232,7 +234,7 @@ footer {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  max-width: 400px;
+  max-width: 440px;
   z-index: 10000;
 }
 
@@ -241,10 +243,10 @@ footer {
   text-align: center;
   background: #0056a3;      /* 파랑 CTA */
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   text-decoration: none;
-  padding: 14px 0;
+  padding: 20px 0;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 
@@ -273,8 +275,9 @@ footer {
     height: auto;
   }
   .cta a {
-    font-size: 16px;
-    padding: 12px 24pxs;
+    max-width: 640;
+    font-size: 28px;
+    padding: 20px 36px;
   }
   .fixed-cta a {
     font-size: 18px;
@@ -285,5 +288,12 @@ footer {
   }
   .service-list {
     grid-template-columns: 1fr ; /* 모바일에서는 1개씩 */
+  }
+   .floating-cta {
+    max-width: 100%;   /* 모바일은 화면 가득 */
+  }
+  .floating-cta a {
+    font-size: 26px;   /* 🔥 모바일에서 더 큼 */
+    padding: 22px 0;
   }
 }
