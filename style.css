@@ -7,7 +7,12 @@ body {
   background-color: #f0f6fc;
   color: #222;
 }
+
+
 h2{color:#003366;}
+p{
+  font-size : 25px;
+}
 /* 전체 레이아웃 감싸기 */
 .container {
   max-width: 640px;    /* PC에서는 640px로 고정 */
@@ -117,7 +122,24 @@ h2{color:#003366;}
   text-align: left;
   margin-top: 10px;
 }
+.detail {
+  display: none;            /* 기본 숨김 */
+  margin-top: 15px;
+}
 
+.detail-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열 */
+  gap: 10px;
+}
+
+.detail-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
 /* 시공사진 슬라이드 */
 .gallery {
   padding: 60px 20px;
