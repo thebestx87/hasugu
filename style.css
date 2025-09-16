@@ -9,7 +9,7 @@ body {
   margin: 0;
   line-height: 1.6;
   background-color: #f0f6fc;
-  color: #222;
+  color:
 }
 
 
@@ -29,8 +29,9 @@ p{
 /* 메인 히어로 */
 .main-hero {
   text-align: center;
-  background: #003366;
-  padding:0
+  background: #013dfd;
+  padding:0;
+  border-radius: 20px;
   
 }
 .hero-img {
@@ -50,7 +51,7 @@ p{
   font-weight: bold;
   text-decoration: none;
   padding: 14px 0;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
 
   /* ✨ 반짝 효과 애니메이션 */
