@@ -1,5 +1,9 @@
 
 /* 기본 세팅 */
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Noto Sans KR', sans-serif;
   margin: 0;
