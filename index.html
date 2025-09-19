@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+<!-- 🔥 파비콘 & 애플 터치 아이콘 & 매니페스트 -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="img/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="하수구 막힘 24시간 출동, 최신 장비 보유, 내시경 점검, 1년 AS 보장.">
+  <meta name="description" content="하수구 막힘 24시간 출동, 최신 장비 보유, 내시경 점검">
   <meta name="keywords" content="하수구, 막힘, 배관, 청소, 남대표, 24시간 출동, 내시경 점검">
+    <!-- 🔥 링크 공유시 미리보기 이미지 (OG 태그) -->
+  <meta property="og:title" content="하수구 남대표">
+  <meta property="og:description" content="24시간 출동, 최신 장비, 내시경 점검">
+  <meta property="og:image" content="http://thebestx87.github.io/hasugu//img/preview.jpg">
+  <meta property="og:url" content="http://thebestx87.github.io/hasugu//"> 
+  <meta property="og:type" content="website">
+
   <title>하수구 남대표</title>
  
-
+<!-- 스타일시트(css)연결 -->
   <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
 <div class="container">
   <!-- 메인 이미지 -->
  <header class="main-hero">
   <div class="hero-wrap">
     <img src="img/blue_main_2.gif" alt="하수구 남대표 메인 이미지" class="hero-img">
+
+    <!-- CTA -->
     <div class="cta">
       <a href="tel:01026558259">📞 010-2655-8259</a>
     </div>
@@ -39,8 +68,7 @@
   <div class="service-list">
     
     <div class="service-item" onclick="toggleDetail(this)">
-      <!-- <img src="img/service1.jpg" alt="최신장비 보유"> -->
-      <p>고압 세척</p><span class="more">자세히 보기 ▼  </span></p>
+         <p>고압 세척</p><span class="more">자세히 보기 ▼  </span></p>
       <div class="detail">
         <div class="detail-gallery">
           <img src="img/clean_1.jpg" alt="고압세척 사진1">
@@ -77,7 +105,7 @@
       </div>
     </div>
 <div class="service-item" onclick="toggleDetail(this)">
-      <!-- <img src="img/service3.jpg" alt="1년 A/S"> -->
+   
       <p>배관 교체</p><span class="more">자세히 보기 ▼  </span></p>
       <div class="detail">
         <div class="detail-gallery">
@@ -117,6 +145,7 @@
       <button class="next" onclick="moveSlide(1)">❯</button>
     </div>
   </section>
+  <!-- 고정CTA -->
 <div class="fixed-cta">
   <a href="tel:01026558259">010-2655-8259
   </a>
@@ -129,10 +158,11 @@
    
   </footer>
   </div>
+  <!-- 플로팅 CTA -->
 <div class="floating-cta">
   <a href="tel:01026558259">📞010-2655-8259</a>
 </div>
-
+<!-- 자바스크립트 연결 -->
   <script src="main.js"></script>
 </body>
 </html>
